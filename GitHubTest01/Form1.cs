@@ -24,7 +24,6 @@ namespace GitHubTest01
         private void button2_Test2_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Test 2");
-            MessageBox.Show("new test");
         }
     }
 }

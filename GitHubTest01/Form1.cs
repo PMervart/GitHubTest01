@@ -19,7 +19,11 @@ namespace GitHubTest01
         private void button1_Test1_Click(object sender, EventArgs e)
         {
         // first messageBox was deleted
+        int a1=10;
+        int a2=20;
+        int a3=30;
             MessageBox.Show("Test 10");
+            MessageBox.Show("Line1                {0}\nLine2                {1}\nLine3                {3}", a1,a2,a3)
         }
 
         private void button2_Test2_Click(object sender, EventArgs e)

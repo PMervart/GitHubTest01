@@ -18,13 +18,15 @@ namespace GitHubTest01
 
         private void button1_Test1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Test 1");
+        // first messageBox was deleted
             MessageBox.Show("Test 10");
         }
 
         private void button2_Test2_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Test 2");
+            MessageBox.Show("pokus psat na nekolik radku\ntoto je druhy radek\ntoto je treti radek");
+            // uvidime zda nove radky funguji
         }
     }
 }

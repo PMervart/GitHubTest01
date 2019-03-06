@@ -23,7 +23,7 @@ namespace GitHubTest01
         int a2=20;
         int a3=30;
             MessageBox.Show("Test 10");
-            MessageBox.Show("Line1                {0}\nLine2                {1}\nLine3                {3}", a1,a2,a3)
+            MessageBox.Show("Line1                " + a1.ToString() + "\nLine2                " + a2.ToString() + "\nLine3                " + a3.ToString());
         }
 
         private void button2_Test2_Click(object sender, EventArgs e)
